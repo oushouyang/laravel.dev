@@ -7,7 +7,7 @@
 
 <body>
 <?php 
-echo 'buganle';
+echo 'bbb';
 ?>
 </body>
 </html>
