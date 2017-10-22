@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+	<!-- jQuery -->
+	<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<!-- DataTables -->
+	<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<table class="table table-hover table-bordered" id="table_id_example">
+			<thead>
+				<tr>
+					<th>序号</th>
+					<th>名称</th>
+					<th>邮箱</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>曹艳</td>
+					<td>gogery@183.com</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>李艳</td>
+					<td>sdfgery@183.com</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>吗艳</td>
+					<td>ogery@183.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready( function () {
+		// ajax 
+	    $('#table_id_example').DataTable();
+	} );
+
+</script>
+</html>
